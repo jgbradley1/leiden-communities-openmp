@@ -6,8 +6,6 @@ ENV PIP_ROOT_USER_ACTION=ignore
 ENV PIP_DISABLE_PIP_VERSION_CHECK=1
 ENV LANG C.UTF-8
 ENV LC_ALL C.UTF-8
-# customize shell prompt to allow more space for typing
-# ENV PS1 '\u\\$ '
 
 # install python, pip, git, and other required tools
 RUN apt-get --yes -qq update \
